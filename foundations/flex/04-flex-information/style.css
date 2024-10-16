@@ -7,10 +7,38 @@ img {
   height: 100px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.plant-ctn {
+  display: flex;
+  align-items: center;
+  margin: 32px;
+  gap: 52px;
+}
+
+.items {
+  display: flex;
+  width: 200px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-wrap: wrap;
+  text-align: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
 }
+
 
 /* do not edit this footer */
 .footer {
